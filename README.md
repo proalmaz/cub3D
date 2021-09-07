@@ -18,6 +18,7 @@ cd cub3d
 make
 ./cub3D map.cub
 ```
+![Alt Text](https://github.com/proalmaz/cub3D/blob/master/ray_casting.gif)
 
 `make` and `make all` compile the library libfе.a and libmlx.dylib, placing them in the root folder.
 
