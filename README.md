@@ -9,13 +9,13 @@
 # Using
 
 ```
-git clone https://github.com/ShamilSE/cub3d/
+git clone https://github.com/proalmaz/cub3D.git
 cd cub3d
 make
 ./cub3D map.cub
 ```
 
-**make** и make all компилируют библиотеку libft.a и libmlx.dylib, помещая их в корневую папку.
+`make` и make all компилируют библиотеку libft.a и libmlx.dylib, помещая их в корневую папку.
 
 make re удаляет все .o файлы, удаляет libft.a и libmlx.dylib, пересобирает проект.
 
