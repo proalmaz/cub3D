@@ -27,8 +27,6 @@ make
 
 `make fclean` deletes all .o files, also deletes libfе.a and libmlx.dylib.
 
-Take a screenshot: `./cub3D [map.cub] --save`
-
 # Configuration file map.cub
 This file is given as first argument to a program and contains info about:
 
@@ -39,5 +37,6 @@ Map where 1 - wall, 0 - empty space, N/W/E/S - initial direction of a player, 2 
 ## Checking the validity of map.cub
 If any misconfiguration of any kind is encountered in the file, the program must exit properly and return "Error\n" followed by an explicit error message. Some of requirements are subjective.
 
-## --save
+## Screenshot
+`./cub3D [map.cub] --save`
 Program is saving the first rendered image in bmp format when its second argument is --save.
