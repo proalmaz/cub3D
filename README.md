@@ -4,7 +4,7 @@ Repeat raycasting in Wolfenstein 3D, using the miniLibX library. The main task: 
 
 In this project, we use some functions from my libft library, as well as some functions we modify.
 
-The compilation was performed as follows: gcc -Wall -Wextra -Werror *.o -L. -lmlx -lft -framework OpenGL -framework AppKit -o cub3d.
+The compilation was performed as follows: `gcc -Wall -Wextra -Werror *.o -L. -lmlx -lft -framework OpenGL -framework AppKit -o cub3d`
 
 All files pass to Norminette.
 
