@@ -13,7 +13,7 @@ No memory leaks.
 # Using
 
 ```
-git clone https://github.com/proalmaz/cub3D.git
+git clone https://github.com/proalmaz/cub3D.git cub3D
 cd cub3d
 make
 ./cub3D map.cub
