@@ -1,10 +1,14 @@
 # cub3D
-Описание
-Этот проект вдохновлен всемирно известной игрой 90-х годов, которая стала первым FPS в истории. Это позволит нам исследовать проброс лучей. Наша цель будет состоять в том, чтобы сделать динамический вид внутри лабиринта, в котором мы должны будете найти свой путь.
+## Description
+Repeat raycasting in Wolfenstein 3D, using the miniLibX library. The main task: to explore the path of the rays, to make a dynamic view inside the maze.
 
-Компилирование было выполнено следующем образом: gcc -Wall -Wextra -Werror *.o -L. -lmlx -lft -framework OpenGL -framework AppKit -o cub3d.
+In this project, we use some functions from my libft library, as well as some functions we modify.
 
-Все файлы проходят на Norminette.
+The compilation was performed as follows: gcc -Wall -Wextra -Werror *.o -L. -lmlx -lft -framework OpenGL -framework AppKit -o cub3d.
+
+All files pass to Norminette.
+
+No memory leaks.
 
 # Using
 
