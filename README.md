@@ -39,4 +39,5 @@ If any misconfiguration of any kind is encountered in the file, the program must
 
 ## Screenshot
 `./cub3D [map.cub] --save`
+
 Program is saving the first rendered image in bmp format when its second argument is --save.
