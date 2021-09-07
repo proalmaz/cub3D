@@ -19,15 +19,25 @@ make
 ./cub3D map.cub
 ```
 
-`make` и make all компилируют библиотеку libft.a и libmlx.dylib, помещая их в корневую папку.
+`make` and `make all` compile the library libfе.a and libmlx.dylib, placing them in the root folder.
 
-make re удаляет все .o файлы, удаляет libft.a и libmlx.dylib, пересобирает проект.
+`make re` deletes all .o files, deletes libfе.a and libmlx.dylib, rebuilds the project.
 
-make clean удаляет все .o файлы.
+`make clean` deletes all .o files.
 
-make fclean удаляет все .o файлы, так же удаляет libft.a и libmlx.dylib.
+`make fclean` deletes all .o files, also deletes libfе.a and libmlx.dylib.
 
-Запуск программы: ./cub3D [карта].
+# Configuration file map.cub
+This file is given as first argument to a program and contains info about:
 
-Сделать скриншот: ./cub3D [карта] --save.
+## Screen resolution
+North, South, East, West textrures for walls and sprite in .xpm files
+## Ceiling and floor color in RGB format
+Map where 1 - wall, 0 - empty space, N/W/E/S - initial direction of a player, 2 - sprite
+## Checking the validity of map.cub
+If any misconfiguration of any kind is encountered in the file, the program must exit properly and return "Error\n" followed by an explicit error message. Some of requirements are subjective.
 
+## Screenshot
+`./cub3D [map.cub] --save`
+
+Program is saving the first rendered image in bmp format when its second argument is --save.
